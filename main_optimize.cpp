@@ -14,7 +14,7 @@
 #define iHeight 1.0 / Height
 ////#define abs(x) ((x)<0 ? -(x) : (x))//default abs is faster than macro abs
 //fully optimze give 3x speed up (using faster sphere intersection and FTA)
-//partly optimize only give 2.5x speed up
+//partially optimize only give 2.5x speed up
 using namespace std;
 
 enum material { Diffuse, Glass, Mirror, Light };
