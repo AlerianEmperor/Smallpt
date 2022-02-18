@@ -353,3 +353,4 @@ void main()
 	ofs_log << "Rendering time: " << render_time << "\n";
 	ofs_log << "Write Time: " << write_time << "\n";
 }
+
