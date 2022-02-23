@@ -388,7 +388,7 @@ void main()
 						Ray r(origin, (u * p + v * q - w).norm());
 						sum = sum + Radiance(r, num_spheres);
 					}
-					c[j * Width + i] = sum * ins * 0.25;
+					c[j * Width + i] += sum * ins * 0.25;
 				}
 			}
 			
