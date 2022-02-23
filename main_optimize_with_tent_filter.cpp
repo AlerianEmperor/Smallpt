@@ -253,7 +253,8 @@ static vec3 Radiance(const Ray& r, const int& num_spheres)
 
 				double P = 0.25 + 0.5 * R;
 
-				if (randf() < R)
+				//if (randf() < R)//incorrect
+				if(randf() < P)//correct
 				{
 					new_ray = Ray(hit_point + 0.2 * real_normal, (new_ray.d - 2.0 * new_ray.d.dot(real_normal) * real_normal).norm());
 					T *= (R / P);
