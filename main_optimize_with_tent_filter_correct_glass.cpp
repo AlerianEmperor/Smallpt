@@ -262,7 +262,7 @@ static vec3 Radiance(const Ray& r, const int& num_spheres)
 					R = R0 + (1.0 - R0) * p2 * p2 * p;
 				}
 
-				double Tr = 1.0 - R;
+				//double Tr = 1.0 - R;
 
 				//Realistic Ray Tracing 177 and 178
 				//page 178
@@ -283,7 +283,7 @@ static vec3 Radiance(const Ray& r, const int& num_spheres)
 				{
 					new_ray = Ray(hit_point - 0.02 * real_normal, Refractive_direction);
 					//if (z > 2)
-						T = T * ((1.0 - R) / (1.0 - P));
+					T = T * ((1.0 - R) / (1.0 - P));
 					//else
 					//	T = T / Tr;
 				}
