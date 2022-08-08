@@ -7,9 +7,11 @@ Tent Filter was expected to give a smoother image, but apparently it don't.
 
 # References
 onb used in so many projects.
+
 1.https://backend.orbit.dtu.dk/ws/portalfiles/portal/126824972/onb_frisvad_jgt2012_v2.pdf
 
 onb Revisited
+
 2.https://graphics.pixar.com/library/OrthonormalB/paper.pdf
 
 3.Realistic Ray Tracing Peter Shirley.
